@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
@@ -9,11 +9,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="andy.lee.intentservicealarm.MainActivity">
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="click me"/>
-</RelativeLayout>
+        android:text="点我启动服务"/>
+    <Button
+        android:id="@+id/btn_dynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我动态注册接受系统广播"/>
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我发送动态注册自定义标准广播"/>
+    <Button
+        android:id="@+id/btn_Static_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我发送静态注册自定义标准广播"/>
+</LinearLayout>

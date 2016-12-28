@@ -6,5 +6,6 @@ package andy.lee.intentservicealarm;
  */
 
 public class Constant {
+    public static final String CUSTOM_RECEIVER = "andy.lee.broadcastReceiver.customReceiver";
     public static final String IS_SERVICE_START = "isOn";
 }
