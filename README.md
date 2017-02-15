@@ -1,0 +1,4 @@
+# BroIntentAlarmProject
+服务，广播和定时器的使用
+主要实现的功能是固定时间后台执行耗时操作，且用户关机重启之后，自动启动服务，并开始耗时操作
+需要注意的是AlarmManager在android6.0中的改变
